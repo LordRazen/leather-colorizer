@@ -39,7 +39,7 @@
                         <configuration>
                             <target>
                                 <mkdir dir="${project.basedir}/latest" />
-                                <copy file="${project.build.directory}/${project.build.finalName}.jar"                          tofile="${project.basedir}/latest/Leather-Colorizer-latest.jar"                          overwrite="true" />
+                                <copy file="${project.build.directory}/${project.build.finalName}.jar" tofile="${project.basedir}/latest/Leather-Colorizer-latest.jar" overwrite="true" />
                             </target>
                         </configuration>
                     </execution>

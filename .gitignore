@@ -18,7 +18,12 @@ out/
 *.ctxt
 
 # Package Files #
+
 *.jar
+# Released jar lives in latest/ and is tracked on purpose
+!latest/
+!latest/*.jar
+
 *.war
 *.nar
 *.ear
